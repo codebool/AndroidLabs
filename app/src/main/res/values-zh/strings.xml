@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">安卓实验</string>
-    <string name="hello_message">你好，世界！</string>
-    <string name="ButtonText">我是一个按钮</string>
+    <string name="hello_message">看我的界面：</string>
+    <string name="button_text">点击这里</string>
+    <string name="checkBox_text">选中这个！</string>
+    <string name="switch_text">切换 开 / 关</string>
+    <string name="type_text">输入</string>
+    <string name="toast_message">这里有更多信息</string>
+    <string name="switch_mode">目前的切换模式是：</string>
+
+    <string name="ButtonText">点击这里</string>
 </resources>
