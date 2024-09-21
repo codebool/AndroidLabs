@@ -19,8 +19,8 @@ public class MainActivity extends AppCompatActivity {
         EdgeToEdge.enable(this);
 
 //        setContentView(R.layout.activity_main_linear);
-        setContentView(R.layout.activity_main_grid);
-//        setContentView(R.layout.activity_main_relative);
+//        setContentView(R.layout.activity_main_grid);
+        setContentView(R.layout.activity_main_relative);
 
         Button clickButton = findViewById(R.id.button);
         clickButton.setOnClickListener(v -> {
