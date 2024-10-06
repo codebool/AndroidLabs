@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">实验3</string>
+    <string name="email_label">输入你的邮箱地址:</string>
+    <string name="email_hint">请在此输入邮箱地址</string>
+    <string name="password_label">输入你的密码:</string>
+    <string name="password_hint">请在此输入密码</string>
+    <string name="login">登入</string>
+
+    <string name="profile_title">你的档案</string>
+    <string name="your_name_label">你的名字:</string>
+    <string name="your_email_label">你的邮箱地址:</string>
+    <string name="your_picture_label">你的图片:</string>
+    <string name="enter_your_name">输入你的名字</string>
+    <string name="enter_your_email">输入你的电子邮箱</string>
+    <string name="profile_picture">拍一个档案照片</string>
+    <string name="picture_desc">捕捉到图像</string>
+    <string name="hint_message">点击上面的按钮来拍照</string>
+</resources>

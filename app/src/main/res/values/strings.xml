@@ -1,3 +1,18 @@
 <resources>
     <string name="app_name">lab03</string>
+    <string name="email_label">Enter your email address:</string>
+    <string name="email_hint">Type your email here</string>
+    <string name="password_label">Enter your password:</string>
+    <string name="password_hint">Type your password</string>
+    <string name="login">LOGIN</string>
+
+    <string name="profile_title">Your profile</string>
+    <string name="your_name_label">Your name:</string>
+    <string name="your_email_label">Your email:</string>
+    <string name="your_picture_label">Your picture:</string>
+    <string name="enter_your_name">Enter your name</string>
+    <string name="enter_your_email">Enter your email</string>
+    <string name="profile_picture">Take a profile picture</string>
+    <string name="picture_desc">Captured Image</string>
+    <string name="hint_message">Click the button above to take a picture</string>
 </resources>
