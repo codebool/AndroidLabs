@@ -130,16 +130,15 @@ public class ProfileActivity extends AppCompatActivity {
 
     // Method to dispatch the camera intent to take a picture
     private void dispatchTakePictureIntent() {
-        Intent takePictureIntent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
-        if (takePictureIntent.resolveActivity(getPackageManager()) != null) {
-            // Log the dispatch of the intent
-            Log.e(TAG, "Dispatching take picture intent");
+        android.content.Intent takePictureIntent = new android.content.Intent(MediaStore.ACTION_IMAGE_CAPTURE);
+        try {
             myPictureTakerLauncher.launch(takePictureIntent);
-        } else {
-            Log.e(TAG, "No camera app found to handle the intent");
-            Toast.makeText(this, "No camera app found to take a picture", Toast.LENGTH_SHORT).show();
+        } catch (Exception e) {
+            Log.e(TAG, "Error launching camera intent", e);
+            Toast.makeText(this, "No camera available to take a picture", Toast.LENGTH_SHORT).show();
         }
     }
+
 
     @Override
     public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
