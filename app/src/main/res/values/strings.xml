@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MyDomain</string>
+    <string name="hello_message">Hello, welcome to my domain.</string>
+    <string name="ButtonText1">Who you are!</string>
+    <string name="ButtonText2">let us play a game</string>
+    <string name="ButtonText3">Check Weather</string>
+</resources>
