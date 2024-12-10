@@ -30,6 +30,12 @@ public class MainActivity extends AppCompatActivity {
             startActivity(intent);
         });
 
+        Button button3 = findViewById(R.id.button3);
+        button3.setOnClickListener(v -> {
+            Intent intent = new Intent(MainActivity.this, WeatherActivity.class);
+            startActivity(intent);
+        });
+
 
         Button button4 = findViewById(R.id.button4);
         LinearLayout formLayout = findViewById(R.id.formLayout);

@@ -5,4 +5,6 @@
     <string name="ButtonText2">Show you what I have</string>
     <string name="ButtonText3">Check Weather</string>
     <string name="ButtonText4">Tell us, who you are!</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
 </resources>
